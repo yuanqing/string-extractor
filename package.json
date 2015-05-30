@@ -1,0 +1,35 @@
+{
+  "name": "string-extractor",
+  "version": "0.0.0",
+  "description": "Regular expression sugar for getting data out of strings.",
+  "author": "Lim Yuan Qing",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yuanqing/string-extractor.git"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.14",
+    "jshint": "^2.7.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "lint": "jshint --verbose index.js test/*.js",
+    "test": "rm -rf coverage && istanbul cover -- tape test/*.js --verbose",
+    "build": "npm run lint && npm test"
+  },
+  "keywords": [
+    "extract",
+    "extractor",
+    "match",
+    "matcher",
+    "matching",
+    "named",
+    "parse",
+    "parser",
+    "pattern",
+    "regexp",
+    "string",
+    "sugar"
+  ]
+}
