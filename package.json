@@ -1,6 +1,6 @@
 {
   "name": "string-extractor",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Regular expression sugar for getting data out of strings.",
   "author": "Lim Yuan Qing",
   "license": "MIT",
